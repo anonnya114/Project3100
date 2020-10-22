@@ -1,0 +1,341 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+	
+
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+
+
+    <title>project</title>
+</head>
+<body>
+			
+	<section class="sec1">	
+   <div class="container-fluid">
+         <header>
+            <nav class="navbar navbar-expand-lg navbar-light" style="float:left">
+                <a class="navbar-brand" href="#"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+				
+								<div class="dropdown">
+  <button class="dropbtn">Menu</button>
+  <div class="dropdown-content">
+    <div class="container-fluid" id="menu">
+
+
+  <a href="#">Weekend Offers!</a>
+  <a href="#">Daily Offer</a>
+  <a href="#">General Grocery</a>
+  <a href="#">Beverage</a>
+  <a href="#">Meat</a>
+  <a href="#">Fish</a>
+  <a href="#">Dairy-Bakery</a>
+  <a href="#">Fresh Produce</a>
+  <a href="#">Personal Care</a>
+  <a href="#">Baby and Toddler</a>
+  <a href="#">Pet Supplies</a>
+  <a href="#">Household</a>
+
+
+</div>
+  </div>
+</div>
+        
+                <div class="collapse navbar-collapse my-nav" id="navbarSupportedContent">
+                    <ul class="navbar-nav">
+                        <li class="nav-item pr-2">
+                            <a class="nav-link" href="#">HOMEPAGE</a>
+                        </li>
+                        <li class="nav-item pr-2">
+                            <a class="nav-link" href="#">ABOUT</a>
+                        </li>
+                     
+                        <li class="nav-item pr-2">
+                            <a class="nav-link" href="#">SERVICES</a>
+                        </li>
+                        <li class="nav-item pr-2">
+                            <a class="nav-link" href="#">BLOG</a>
+                        </li>
+                        <li class="nav-item pr-2">
+                            <a class="nav-link" href="#">CONTACT</a>
+                        </li>
+						   <li class="nav-item pr-2">
+                            <a class="nav-link" href="#">LOG IN</a>
+                        </li>
+						</li>
+						   <li class="nav-item pr-2">
+                            <div class="container" id="search-box">
+			<input class="searchBar" style="float:left;margin-left:40px" type="text" name="" placeholder="Search">
+			  <a class="search-btn" href="#">
+              <i class="fas fa-search"></i>
+              </a>
+			</div>
+                        </li>
+                    </ul>
+                </div>
+				
+
+            </nav>
+			
+			    
+			</div>
+        </header>
+	</section>	
+	
+	<section class="sec2">
+	<div class="container" id="Slider1">
+
+	</div>
+	</section>
+	
+	
+	
+
+	
+	
+
+	<!-- Optional JavaScript -->
+	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	<script src="js/jquery.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	
+	
+
+
+
+
+
+
+
+<script>
+function myFunction() {
+  // Declare variables
+  var input, filter, ul, li, a, i;
+  input = document.getElementById("mySearch");
+  filter = input.value.toUpperCase();
+  ul = document.getElementById("myMenu");
+  li = ul.getElementsByTagName("li");
+
+  // Loop through all list items, and hide those who don't match the search query
+  for (i = 0; i < li.length; i++) {
+    a = li[i].getElementsByTagName("a")[0];
+    if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
+      li[i].style.display = "";
+    } else {
+      li[i].style.display = "none";
+    }
+  }
+}
+</script>
+	
+	<div class="banner1">
+	<h1 class="head1" style="text-align:center;color:Blacl;margin-top:42px;">Exclusive Offers</h1>
+	</div>
+	
+	
+	<div id="postsCarousel" class="carousel slide" data-ride="carousel" style="position:absolute;top:92%;left:13%;">
+     <div class="container">
+        <div class="row">
+            <div class="col-12  mb-4" id="btn1"  >
+                <a class="btn prev" href="" title="go back" style="margin-top:0px;margin-left:1100px;"><i class="fa fa-lg fa-chevron-left"></i></a>
+                <a class="btn next" href="" title="more" style="margin-left:1100px;"><i class="fa fa-lg fa-chevron-right"></i></a>
+            </div>
+        </div>
+    </div>
+  <!-- Indicators -->
+  
+
+  <!-- The slideshow -->
+ <div class="container p-t-0 m-t-2 carousel-inner" >
+        <div class="row row-equal carousel-item active m-t-0" id="card1">
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-img-top card-img-top-250">
+                        <img class="img-fluid" src="images/d.jpg" alt="Carousel 1">
+                    </div>
+                    <div class="card-block p-t-2">
+                        <div class="card-header"><h3>Chicken Breast</h3></div>
+                        <div class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium animi molestias veritatis, pariatur dolorem error non reprehenderit vero, id. Incidunt hic laudantium soluta recusandae, voluptas libero et! Ipsa, maiores, ratione.</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-img-top card-img-top-250">
+                        <img class="img-fluid" src="images/e.jpg"  alt="Carousel 1">
+                    </div>
+                    <div class="card-block p-t-2">
+                        <div class="card-header"><h3>Meat</h3></div>
+                        <div class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium animi molestias veritatis, pariatur dolorem error non reprehenderit vero, id. Incidunt hic laudantium soluta recusandae, voluptas libero et! Ipsa, maiores, ratione.</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-img-top card-img-top-250">
+                        <img class="img-fluid" src="images/f.jpg"  alt="Carousel 1">
+                    </div>
+                    <div class="card-block p-t-2">
+                        <div class="card-header"><h3>Hilsha Fish</h3></div>
+                        <div class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium animi molestias veritatis, pariatur dolorem error non reprehenderit vero, id. Incidunt hic laudantium soluta recusandae, voluptas libero et! Ipsa, maiores, ratione.</div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        <div class="row row-equal carousel-item m-t-0" id="card2">
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-img-top card-img-top-250">
+                        <img class="img-fluid" src="images/g.jpg"  alt="Carousel 1">
+                    </div>
+                    <div class="card-block p-t-2">
+                        <div class="card-header"><h3>Lentil</h3></div>
+                        <div class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium animi molestias veritatis, pariatur dolorem error non reprehenderit vero, id. Incidunt hic laudantium soluta recusandae, voluptas libero et! Ipsa, maiores, ratione.</div>
+                    </div>
+                </div>
+            </div>
+           <div class="col-md-4">
+                <div class="card">
+                    <div class="card-img-top card-img-top-250">
+                        <img class="img-fluid" src="images/h.png"  alt="Carousel 1">
+                    </div>
+                    <div class="card-block p-t-2">
+                        <div class="card-header"><h3>Onions</h3></div>
+                        <div class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium animi molestias veritatis, pariatur dolorem error non reprehenderit vero, id. Incidunt hic laudantium soluta recusandae, voluptas libero et! Ipsa, maiores, ratione.</div>
+                    </div>
+                </div>
+            </div>
+           <div class="col-md-4">
+                <div class="card">
+                    <div class="card-img-top card-img-top-250">
+                        <img class="img-fluid" src="images/i.jpg"  alt="Carousel 1">
+                    </div>
+                    <div class="card-block p-t-2">
+                        <div class="card-header"><h3>Malta</h3></div>
+                        <div class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium animi molestias veritatis, pariatur dolorem error non reprehenderit vero, id. Incidunt hic laudantium soluta recusandae, voluptas libero et! Ipsa, maiores, ratione.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+	
+<!-- Photo Grid -->
+
+<section class="sec3">
+<div class="row" style="padding-right:65px;"> 
+  <div class="column">
+    <img src="images/l.jpg" style=" width:100%;opacity: 0.5; filter: alpha(opacity=50);">
+    <img src="images/s.jpg" style=" width:100%;opacity: 0.5; filter: alpha(opacity=50);">
+    
+  </div>
+  <div class="column">
+    <img src="images/m.jpg" style=" width:100%;opacity: 0.5; filter: alpha(opacity=50);">
+    <img src="images/t.jpg" style=" width:100%;opacity: 0.5; filter: alpha(opacity=50);">
+ 
+  </div>  
+  <div class="column">
+    <img src="images/s.jpg" style=" width:100%;opacity: 0.5; filter: alpha(opacity=50);">
+    <img src="images/q.jpg" style=" width:100%;opacity: 0.5; filter: alpha(opacity=50);">
+ 
+  </div>
+  <div class="column">
+    <img src="images/u.jpg" style=" width:100%;opacity: 0.5; filter: alpha(opacity=50);">
+    <img src="images/r.jpg"  style=" width:100%;opacity: 0.5; filter: alpha(opacity=50);">
+
+  </div>
+</div>
+
+
+</section>
+	
+	<div class="grid-container">
+  <div>HOW TO ORDER</div>
+  <div>RETURNS & EXCHANGES</div>
+  <div>SHIPPING & DELIVERY</div>
+  <div>BILLING & PAYMENTS</div>
+   
+</div>
+
+<div class="jumbotron text-center" style="margin-bottom:0">
+  <div class="box">
+	<div class="container">
+	<div class="row">
+	<div class="col-md-4">
+	<p class="helpline"><strong>ABOUT US</strong></p>
+	<p class="para">
+
+Frequently Asked Questions<br>
+
+Terms of Use & Service<br>
+
+Privacy Policy<br>
+
+Customer Care</p>
+	
+	</div>
+	<div class="col-md-4">
+	<div class="container">
+  <p class="account"><strong>CREATE ACCOUNT</strong></p>
+  <form action="/action_page.php">
+    <div class="form-group">
+      <label for="email" style="float:left;">Email:</label>
+      <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+    </div>
+    <div class="form-group">
+      <label for="pwd"style="float:left;">Password: </label>
+      <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd">
+    </div>
+    <div class="form-group form-check">
+      <label class="form-check-label">
+        <input class="form-check-input" type="checkbox" name="remember"> Remember me
+      </label>
+    </div>
+    <button type="submit" class="btn btn-primary">Sign Up</button>
+  </form>
+</div>
+	</div>
+	<div class="col-md-4">
+	<p class="helpline"><strong>CONTACT US</strong></p>
+	<p class="para">House: 44, Road: 16 (27 Old), Dhanmondi<br>Dhaka - 1209, Bangladesh<br>09678666111<br>
+ info@meenaclick.com</p>
+	</div>
+	</div>	
+	</div>
+	</div>
+</div>
+
+
+   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script> 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script> 
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+<script>
+   (function($){
+	   "use strict";
+	   $('.next').click(function(){ $('.carousel').carousel('next');return false; });
+	   $('.prev').click(function(){ $('.carousel').carousel('prev');return false; });
+   })	
+   (jQuery);
+</script>
+
+
+
+
+</body>
+</html>
+
+</body>
+</html>
